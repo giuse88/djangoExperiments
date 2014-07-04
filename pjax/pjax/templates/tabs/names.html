@@ -1,0 +1,22 @@
+{% extends "tabs/base.html"|pjax:request %}
+{% block title %}Names{% endblock %}
+{% block content %}
+  <div id="names"> 
+    {% if names %}
+    <ul>
+      {% for name in names %}
+        <li> {{ name }} </li> 
+      {% endfor %}
+    </ul>
+    {% else %}
+      <p> There is no names </p>
+    {% endif %}
+  </div>
+  <div>
+  <form action="/names/" method="post">
+      {% csrf_token %}
+      {{ form }}
+      <input type="submit" value="OK">
+  </form>
+  </div>
+{% endblock %}

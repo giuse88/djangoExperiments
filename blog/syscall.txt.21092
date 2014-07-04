@@ -1,0 +1,12 @@
+set_robust_list(0x7f50588709e0, 24)     = 0
+futex(0x7f5054062ac0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x27a7550, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x27a7550, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x27a7550, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+recvfrom(4, "", 8192, 0, NULL, NULL)    = 0
+shutdown(4, SHUT_WR)                    = 0
+close(4)                                = 0
+madvise(0x7f5058070000, 8368128, MADV_DONTNEED) = 0
+_exit(0)                                = ?
++++ exited with 0 +++

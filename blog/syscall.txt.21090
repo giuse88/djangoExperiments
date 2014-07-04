@@ -1,0 +1,150 @@
+set_robust_list(0x7f50588709e0, 24)     = 0
+mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f504c000000
+munmap(0x7f5050000000, 67108864)        = 0
+mprotect(0x7f504c000000, 135168, PROT_READ|PROT_WRITE) = 0
+futex(0x7f5054062ac0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x27a7550, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x27a7550, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x27a7550, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x27a7550, FUTEX_WAKE_PRIVATE, 1) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+recvfrom(4, "GET /static/admin/img/nav-bg-rev"..., 8192, 0, NULL, NULL) = 443
+stat("/usr/lib64/python2.7/site-packages/django/middleware/common", 0x7f505886bad0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/middleware/common.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/middleware/commonmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/middleware/common.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=6838, ...}) = 0
+open("/usr/lib64/python2.7/site-packages/django/middleware/common.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=6225, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505ee39000
+read(6, "\3\363\r\n\214)%Qc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s\260\0\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=6225, ...}) = 0
+read(6, "kiesR\1\0\0\0t\27\0\0\0HttpResponseNotMod"..., 4096) = 2129
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f505ee39000, 4096)            = 0
+close(5)                                = 0
+stat("/usr/lib64/python2.7/site-packages/django/contrib/sessions/middleware", 0x7f505886bad0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/sessions/middleware.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/sessions/middlewaremodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/sessions/middleware.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=1888, ...}) = 0
+open("/usr/lib64/python2.7/site-packages/django/contrib/sessions/middleware.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=2174, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505ee39000
+read(6, "\3\363\r\n\37)%Qc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0sf\0\0\0d\0"..., 4096) = 2174
+fstat(6, {st_mode=S_IFREG|0644, st_size=2174, ...}) = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f505ee39000, 4096)            = 0
+stat("/usr/lib64/python2.7/site-packages/django/contrib/sessions/time", 0x7f5058868520) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/sessions/time.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/sessions/timemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/sessions/time.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/sessions/time.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(5)                                = 0
+stat("/usr/lib64/python2.7/site-packages/django/contrib/auth/middleware", 0x7f505886bad0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/auth/middleware.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/auth/middlewaremodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/auth/middleware.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=3501, ...}) = 0
+open("/usr/lib64/python2.7/site-packages/django/contrib/auth/middleware.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=3541, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505ee39000
+read(6, "\3\363\r\n\213)%Qc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0si\0\0\0d\0"..., 4096) = 3541
+fstat(6, {st_mode=S_IFREG|0644, st_size=3541, ...}) = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f505ee39000, 4096)            = 0
+close(5)                                = 0
+stat("/usr/lib64/python2.7/site-packages/django/contrib/messages/middleware", 0x7f505886bad0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/messages/middleware.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/messages/middlewaremodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/python2.7/site-packages/django/contrib/messages/middleware.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=957, ...}) = 0
+open("/usr/lib64/python2.7/site-packages/django/contrib/messages/middleware.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=1444, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505ee39000
+read(6, "\3\363\r\n\306\354\26Pc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s:\0\0\0d\0"..., 4096) = 1444
+fstat(6, {st_mode=S_IFREG|0644, st_size=1444, ...}) = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f505ee39000, 4096)            = 0
+close(5)                                = 0
+stat("/usr/lib64/python2.7/site-packages/django/contrib/auth/static", 0x7f505886cc20) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.7/site-packages/django/contrib/contenttypes/static", 0x7f505886cc20) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.7/site-packages/django/contrib/sessions/static", 0x7f505886cc20) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.7/site-packages/django/contrib/sites/static", 0x7f505886cc20) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.7/site-packages/django/contrib/messages/static", 0x7f505886cc20) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.7/site-packages/django/contrib/staticfiles/static", 0x7f505886cc20) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.7/site-packages/django/contrib/admin/static", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/giuseppe/Dropbox/django/blog/polls/static", 0x7f505886cc20) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/python2.7/site-packages/django/contrib/admin/static/admin/img/nav-bg-reverse.gif", {st_mode=S_IFREG|0644, st_size=186, ...}) = 0
+stat("/usr/lib64/python2.7/site-packages/django/contrib/admin/static/admin/img/nav-bg-reverse.gif", {st_mode=S_IFREG|0644, st_size=186, ...}) = 0
+stat("/usr/lib64/python2.7/site-packages/django/contrib/admin/static/admin/img/nav-bg-reverse.gif", {st_mode=S_IFREG|0644, st_size=186, ...}) = 0
+stat("/usr/lib64/python2.7/site-packages/django/contrib/admin/static/admin/img/nav-bg-reverse.gif", {st_mode=S_IFREG|0644, st_size=186, ...}) = 0
+stat("/etc/mime.types", {st_mode=S_IFREG|0644, st_size=65355, ...}) = 0
+open("/etc/mime.types", O_RDONLY)       = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=65355, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=65355, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505ee39000
+read(5, "application/1d-interleaved-parit"..., 4096) = 4096
+read(5, "plication/moss-keys\napplication/"..., 4096) = 4096
+read(5, "firm\napplication/tei+xml\t\t\t\t\t\t\t\t"..., 4096) = 4096
+read(5, "\tdart\napplication/vnd.data-visio"..., 4096) = 4096
+mprotect(0x7f504c021000, 49152, PROT_READ|PROT_WRITE) = 0
+read(5, "\t\t\t\t\t\t\t\tggt\napplication/vnd.geom"..., 4096) = 4096
+mprotect(0x7f504c02d000, 49152, PROT_READ|PROT_WRITE) = 0
+read(5, "n/vnd.lotus-approach\t\t\t\t\t\t\t\tapr\n"..., 4096) = 4096
+read(5, "ol\napplication/vnd.ncd.reference"..., 4096) = 4096
+read(5, "ml\napplication/vnd.omads-email+x"..., 4096) = 4096
+read(5, "ent.spreadsheetml.userNames+xml\n"..., 4096) = 4096
+mprotect(0x7f504c039000, 262144, PROT_READ|PROT_WRITE) = 0
+madvise(0x7f504c059000, 131072, MADV_DONTNEED) = 0
+read(5, "cker.track\t\t\t\t\t\tst\napplication/v"..., 4096) = 4096
+read(5, "\t\twmlsc\napplication/vnd.webturbo"..., 4096) = 4096
+read(5, "phing-calculator\t\t\t\t\t\t\tgcf\nappli"..., 4096) = 4096
+read(5, "n/x-xcf\t\t\t\t\t\t\t\t\t\t\txcf\napplicatio"..., 4096) = 4096
+read(5, "\naudio/vnd.nuera.ecelp7470\t\t\t\t\t\t"..., 4096) = 4096
+mprotect(0x7f504c079000, 4096, PROT_READ|PROT_WRITE) = 0
+read(5, "s\nimage/x-canon-cr2\t\t\t\t\t\t\t\t\t\t\tcr"..., 4096) = 4096
+mprotect(0x7f504c07a000, 4096, PROT_READ|PROT_WRITE) = 0
+read(5, "\t\twmls\ntext/x-asm\t\t\t\t\t\t\t\t\t\t\t\t\tas"..., 4096) = 3915
+mprotect(0x7f504c07b000, 4096, PROT_READ|PROT_WRITE) = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f505ee39000, 4096)            = 0
+stat("/etc/httpd/mime.types", 0x7f505886d390) = -1 ENOENT (No such file or directory)
+stat("/etc/httpd/conf/mime.types", 0x7f505886d390) = -1 ENOENT (No such file or directory)
+stat("/etc/apache/mime.types", 0x7f505886d390) = -1 ENOENT (No such file or directory)
+stat("/etc/apache2/mime.types", 0x7f505886d390) = -1 ENOENT (No such file or directory)
+stat("/usr/local/etc/httpd/conf/mime.types", 0x7f505886d390) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/netscape/mime.types", 0x7f505886d390) = -1 ENOENT (No such file or directory)
+stat("/usr/local/etc/httpd/conf/mime.types", 0x7f505886d390) = -1 ENOENT (No such file or directory)
+stat("/usr/local/etc/mime.types", 0x7f505886d390) = -1 ENOENT (No such file or directory)
+mprotect(0x7f504c07c000, 4096, PROT_READ|PROT_WRITE) = 0
+open("/usr/lib64/python2.7/site-packages/django/contrib/admin/static/admin/img/nav-bg-reverse.gif", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=186, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=186, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=186, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505ee39000
+lseek(5, 0, SEEK_CUR)                   = 0
+read(5, "GIF89a\21\0\37\0\263\0\0\377\377\377\370\370\370\376\376\376\366\366\366\361\361\361\373\373\373\355"..., 4096) = 186
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f505ee39000, 4096)            = 0
+mprotect(0x7f504c07d000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f504c07e000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f504c07f000, 4096, PROT_READ|PROT_WRITE) = 0
+sendto(4, "HTTP/1.0 200 OK\r\n", 17, 0, NULL, 0) = 17
+sendto(4, "Date: Wed, 19 Jun 2013 19:02:27 "..., 37, 0, NULL, 0) = 37
+sendto(4, "Server: WSGIServer/0.1 Python/2."..., 37, 0, NULL, 0) = 37
+sendto(4, "Last-Modified: Wed, 20 Feb 2013 "..., 94, 0, NULL, 0) = 94
+sendto(4, "GIF89a\21\0\37\0\263\0\0\377\377\377\370\370\370\376\376\376\366\366\366\361\361\361\373\373\373\355"..., 186, 0, NULL, 0) = 186
+mprotect(0x7f504c080000, 4096, PROT_READ|PROT_WRITE) = 0
+shutdown(4, SHUT_WR)                    = 0
+close(4)                                = 0
+madvise(0x7f5058070000, 8368128, MADV_DONTNEED) = 0
+_exit(0)                                = ?
++++ exited with 0 +++

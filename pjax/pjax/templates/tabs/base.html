@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript" src="/static/js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="/static/js/jquery.pjax.js"></script>
+  <title>{% block title %}My amazing site{% endblock %}</title>
+</head>
+
+<body>
+    <div id="navigation_bar">
+        {% block navigation_bar %}
+            <span><a href="/">Home</a></span>
+            <span><a href="/tab1/">Tab 1</a></span>
+            <span><a href="/tab2/">Tab 2</a></span>
+            <span><a href="/names/">Names</a></span>
+        {% endblock %}
+    </div>
+
+    <div id="container">
+        {% block content %}{% endblock %}
+    </div>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(document).pjax('a', '#container');
+      $(document).on('submit','form', function(event) {
+          event.preventDefault();
+          console.log("submit");
+          $.pjax.submit(event, '#container')
+          })
+      console.log("Pjax activated");
+    });
+  </script>
+</body>
+</html>
